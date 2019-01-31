@@ -30,6 +30,13 @@ If you are missing a feature, feel free to submit a PR or to ask for it.
 
 > ¹ Adding other PDFs as images or merging them together is still being considered a beta - proper error handling is adviced
 
+### Building dist\pdfjs.js
+
+* `git clone https://github.com/ArnaudBuchholz/pdfjs.git`
+* `cd pdfjs`
+* `npm install`
+* `npm run-script build`
+
 ### History
 
 See [CHANGELOG](https://github.com/rkusa/pdfjs/blob/master/CHANGELOG.md).
