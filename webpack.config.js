@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
-  entry: ['babel-polyfill', './web_bundle.js'],
+  entry: ['./pre-polyfill.js', 'babel-polyfill', './post-polyfill.js', './web_bundle.js'],
   target: 'web',
   mode: 'production',
 
